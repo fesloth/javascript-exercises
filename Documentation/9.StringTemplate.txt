@@ -1,0 +1,2 @@
+Javascript string template adalah mengambil data dari luar lalu dimasukkan dalam string tanpa keluar dari string
+untuk menggunakan string template memakai backtick (``)
