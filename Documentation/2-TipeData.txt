@@ -1,0 +1,9 @@
+String
+
+Escape Sequence
+
+\n for enter
+\t for tab
+\' for '
+\" for "
+\\ for \

@@ -1,0 +1,5 @@
+Cara-cara memanggil Javascript
+1. Internal (langsungd di HTML)
+2. Eksternal (file terpisah, memakai src dibody paling bawah)
+
+https://www.youtube.com/watch?v=SDROba_M42g&list=PL-CtdCApEFH8SS0Gsj9_a0cC0jypFEoSg

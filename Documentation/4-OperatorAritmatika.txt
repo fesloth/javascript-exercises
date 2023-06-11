@@ -1,0 +1,6 @@
++ pertambahan
+- pengurangan
+* perkalian
+/ pembagian 
+** eksponensial
+% hasil bagi

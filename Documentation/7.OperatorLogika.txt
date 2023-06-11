@@ -1,0 +1,43 @@
+&& dan
+|| atau
+! kebalikan
+
+
+operator dan atau && memiliki rumus
+
+apabila angka1 dan angka2 nilainya sama contohnya
+let x = 5;
+let y = 10;
+
+if (x > 0 && y > 0) {
+  console.log("x dan y positif");
+}
+
+maka hasilnya akan true, alias memunculkan string
+
+&&
+true + true = true
+true + false = false
+false + true = false
+false + false = false
+
+sedangkan apabila ada salah satu saja atau keduangnya angka bernilai false, maka operator logika
+tersebut bernilai false
+
+
+operator atau || juga memiliki rumus
+namun berkebalikan dgn &&, apabila angka1 dan angka2 nilainya sama maka nilainya true
+bedanya adalah operator || walau salah satu ada yg false tetap hasilnya true
+kecuali kedua angka tersebut false
+
+||
+true + true = true
+true + false = true
+false + true = true
+false + false = false
+
+
+operator kebalikan !
+sifatnya berkebalikan
+!nilai2true = false
+!nilai2false = true

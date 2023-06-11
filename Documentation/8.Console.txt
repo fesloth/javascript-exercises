@@ -1,0 +1,6 @@
+Console method
+
+console.info / console.log memberikan informasi
+console.warn memberikan informasi peringatan
+console.error memberikan informasi error
+console.table memberikan informasi dalam bentuk tabel

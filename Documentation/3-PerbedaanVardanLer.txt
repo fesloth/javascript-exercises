@@ -1,0 +1,31 @@
+// Contoh penggunaan var
+function testVar() {
+  var x = 1;
+  if (true) {
+    var x = 2; // variabel x dideklarasikan ulang
+    console.log(x); // Output: 2
+  }
+  console.log(x); // Output: 2
+}
+testVar();
+
+// Contoh penggunaan let
+function testLet() {
+  let y = 1;
+  if (true) {
+    let y = 2; // variabel y hanya memiliki scope di dalam blok if
+    console.log(y); // Output: 2
+  }
+  console.log(y); // Output: 1
+}
+testLet();
+
+
+Pada contoh pertama yang menggunakan var, variabel x dideklarasikan ulang di dalam 
+blok if dan nilainya juga berubah. Setelah keluar dari blok if, nilai x tetap sama dengan nilai 
+terakhir sebelum keluar dari blok if, yaitu 2.
+
+Pada contoh kedua yang menggunakan let, 
+variabel y hanya memiliki scope di dalam blok if. Ketika di dalam blok if, 
+nilai y berubah menjadi 2, tetapi setelah keluar dari blok if, nilai y kembali ke nilai awal yaitu 1. 
+Hal ini karena variabel y yang dideklarasikan dengan let hanya memiliki scope pada blok if.

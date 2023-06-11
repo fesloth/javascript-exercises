@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operasi Perbandingan</title>
+    <!-- operator boolean -->
+    <!-- sifatnya hanya menampilkan true dan false -->
+  </head>
+  <body>
+    <script>
+      let result = 5 == "5";
+      // mengapa true? karena di js agak spesial
+      // js meskipun variable nya tidak setipe tapi nilainya sama
+      // maka akan dibaca true, oleh sebab itu js memiliki operator perbandingan
+      // lain yang memisah antara tipe
+      document.writeln("<p>" + result + "</p>");
+
+      result = 5 === "5";
+      // === artinya apakah mereka 1 variabel? (apakah mereka setipe?)
+      document.writeln("<p>" + result + "</p>");
+
+      result = 10 > 5;
+      document.writeln("<p>" + result + "</p>");
+
+      result = 10 < 5;
+      document.writeln("<p>" + result + "</p>");
+
+      result = !0;
+      document.writeln("<p>" + result + "</p>");
+    </script>
+  </body>
+</html>

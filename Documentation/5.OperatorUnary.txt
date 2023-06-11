@@ -1,0 +1,19 @@
++ positif
+- negatif
+++ increment menaikkan 1 angka
+-- decrement menurunkan 1 angka
+
+contoh sederhana penggunaan increment dan decrement
+let x = 5;
+x++; // nilai x sekarang adalah 6
+x--; // nilai x sekarang kembali menjadi 5
+
+contoh sederhana dalam pernyataan for 
+
+for (let i = 0; i < 5; i++) {
+  console.log(i); // output: 0 1 2 3 4
+}
+
+for (let j = 10; j > 5; j--) {
+  console.log(j); // output: 10 9 8 7 6
+}

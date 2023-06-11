@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var kalimat = "Erlang Andriyanputra";
+
+      console.log(kalimat.trimRight());
+      let nilai = Math.PI;
+
+      nilai = Math.floor(nilai) + 25;
+      nilai = Math.ceil(nilai) + 3.5;
+      nilai = Math.round(nilai) + 50;
+      nilai = Math.abs(nilai) - 60;
+
+      console.log(nilai + 3);
+      let tabungan = 0;
+
+      let tambahTabungan = (jumlah) => {
+        tabungan += jumlah;
+      };
+      let ambilTabungan = (jumlah) => {
+        tabungan -= jumlah;
+      };
+
+      tambahTabungan(200000);
+      tambahTabungan(500000);
+      tambahTabungan(750000);
+      ambilTabungan(135000);
+
+      console.log(`tabungan anda: ${tabungan} rupiah.`);
+    </script>
+  </body>
+</html>

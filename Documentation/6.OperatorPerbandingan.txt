@@ -1,0 +1,8 @@
+> lebih dari
+< kurang dari
+>= lebih dari sama dengan
+<= kurang dari sama dengan
+== sama dengan 
+=== sama dengan dan sama tipe
+!= tidak sama dengan (! dan =)
+!== tidak sama dengan dan tidak sama tipe (! dan = =)
